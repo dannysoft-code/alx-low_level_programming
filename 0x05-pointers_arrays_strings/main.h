@@ -1,5 +1,5 @@
-#ifndef MAIN_FILE
-#define MAIN_FILE
+#ifndef _HOLBERTON_H_
+#define _HOLBERTON_H_
 
 int _putcahr(char c);
 
