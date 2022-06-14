@@ -1,20 +1,32 @@
 #include "main.h"
-#include "2-strlen.c"
 
 /**
- * print_rev - prints a string to stdout in reverse
- * @s: this is a string
- *
- * Return: Null void
- */
-void print_rev(char *s)
-{
-int track;
+ * rev_string - reverse string
+ * @s: string to be reserved
+ * Return: void
+*/
 
-for (track = _strlen(s) - 1; track >= 0; track--)
+void rev_string(char *s)
 {
-_putchar(*(s + track));
+int i, max, half;
+char first, last;
+
+i = 0;
+
+while (s[i] != '\0')
+{
+i++;
 }
 
-_putchar('\n');
+max = i - 1;
+half = max / 2;
+
+while (half >= 0)
+{
+first = s[max - half];
+last = s[half];
+s[half] = first;
+s[max - half] = last;
+half--;
+}
 }
