@@ -1,12 +1,13 @@
 #include "main.h"
 
 /**
- * _strlen - this return the length of the string
+ * _strlen - return the length of the string
  * @s: this is a string
  *
- * return the length of the string
+ * Return: the length of the string
  */
-int _strlen(char *s)
+
+int _strlen(chars *s)
 {
 int no_of_chars;
 int track;
