@@ -7,7 +7,7 @@
  * Return: the length of the string
  */
 
-int _strlen(chars *s)
+int _strlen(char *s)
 {
 int no_of_chars;
 int track;
