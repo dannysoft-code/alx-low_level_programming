@@ -6,13 +6,13 @@
  *
  * Return: Null void
  */
+
 void _puts(char *str)
 {
-int track;
-
-for (track = 0; *(str + track) != '\0'; track++)
+int i;
+for (i = 0; str[i] != '\0'; i++)
 {
-_putchar(*(str + track));
+_putchar(str[i]);
 }
 _putchar('\n');
 }
