@@ -1,7 +1,0 @@
-#include "main.h"
-
-/**
- * _puts - print a string to stdout
- * @str: this is a string
- *
- */
