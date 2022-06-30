@@ -22,7 +22,7 @@ int i, j;
 
 i = atoi(argv[1]);
 j = atoi(argv[2]);
-printf("%i\n", i * j);
+printf("%i\n", i *j);
 }
 return (0);
 }
