@@ -32,6 +32,6 @@ exit(98);
 num1 = atol(argv[1]);
 num2 = atol(argv[2]);
 
-printf("%lu\n", num1 * num2);
+printf("%lu\n", num1 *num2);
 return (0);
 }
