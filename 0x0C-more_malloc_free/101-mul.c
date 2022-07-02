@@ -7,16 +7,17 @@
  *
  * Return: Always 0
  */
-
 int main(int argc, char **argv)
 {
 int i, j;
 unsigned long num1, num2;
+
 if (argc != 3)
 {
 printf("Error\n");
 exit(98);
 }
+
 for (i = 1; i < argc; i++)
 {
 for (j = 0; argv[i][j] != '\0'; j++)
@@ -29,9 +30,11 @@ exit(98);
 }
 }
 }
+
 num1 = atol(argv[1]);
 num2 = atol(argv[2]);
 
 printf("%lu\n", num1 *num2);
+
 return (0);
 }
