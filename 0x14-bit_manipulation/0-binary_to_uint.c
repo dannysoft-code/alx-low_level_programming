@@ -14,6 +14,7 @@ int len, base_two;
 
 if (!b)
 return (0);
+
 ui = 0;
 
 for (len = 0; b[len] != '\0'; len++)
@@ -31,5 +32,6 @@ if (b[len] & 1)
 ui += base_two;
 }
 }
+
 return (ui);
 }
